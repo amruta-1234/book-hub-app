@@ -1,0 +1,235 @@
+.bg-container-bookshelve {
+  background-color: #f8fafc;
+  background-size: cover;
+}
+.bookshelve-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  width: 80vw;
+  margin: 20px;
+}
+.book-shelves-sub-container {
+  width: 100%;
+}
+
+.heading-search-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.book-shelve-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #334155;
+  margin-left: 32px;
+}
+.bookshelve-list-container {
+  background-color: #ffffff;
+  width: 265px;
+  height: 1176px;
+  padding: 15px;
+}
+.bookshelve-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #334155;
+  margin-left: 35px;
+}
+.bookshelve-list-card {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.bookshelve-list-item-btn {
+  background-color: transparent;
+  border-width: 0px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 100%;
+  margin-left: 0px;
+}
+.active-item-btn {
+  background-color: transparent;
+  border-width: 0px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0284c7;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.search-input-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.search-input {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #94a3b8;
+  border-width: 0px;
+  outline: none;
+}
+
+.search-btn {
+  background-color: #edeff1;
+  border-radius: 0px 3px 3px 0px;
+  width: 52px;
+  height: 34px;
+  font-size: 20px;
+  border-width: 0px;
+}
+
+.books-list-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.failure-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  padding: 15px;
+}
+
+.failure-img {
+  width: 345px;
+  height: 170px;
+}
+.failure-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  text-align: center;
+}
+.try-again-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px;
+
+  background: #0284c7;
+  border-radius: 8px;
+  color: #ffffff;
+  border-width: 0px;
+  cursor: pointer;
+  margin: 15px;
+}
+.empty-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  padding: 15px;
+}
+.empty-img {
+  width: 50%;
+}
+.empty-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #334155;
+}
+@media (max-width: 767px) {
+  .bookshelve-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+  }
+  .book-shelve-heading {
+    display: none;
+  }
+  .bookshelve-heading {
+    padding-left: 14px;
+    font-size: 16px;
+  }
+
+  .bookshelve-list-container {
+    background-color: transparent;
+    height: auto;
+    width: 350px;
+    padding: 5px;
+    margin-left: 55px;
+  }
+  .bookshelve-list-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .bookshelve-list-item {
+    border: 1px solid #0284c7;
+    color: #0284c7;
+    border-radius: 20px;
+    padding: 2px 10px 2px 10px;
+    margin: 5px;
+    font-size: 12px;
+  }
+  .active-item {
+    font-size: 12px;
+    border-width: 0px;
+    background-color: #0284c7;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 2px 10px 2px 10px;
+    margin: 5px;
+  }
+  .search-input-card {
+    margin-left: 45px;
+  }
+  .failure-img {
+    width: 230px;
+    height: 115px;
+  }
+  .empty-text {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,26 @@
+.footer-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-bottom: 30px;
+}
+
+.footer-icon-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3d3c3c;
+}
+.media-icon {
+  margin: 8px;
+}

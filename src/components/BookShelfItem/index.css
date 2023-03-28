@@ -1,0 +1,77 @@
+.Link-book-item {
+  text-decoration: none;
+}
+.bookListItem {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 10px;
+  margin-right: 60px;
+}
+
+.cover-pic {
+  width: 133px;
+  height: 155px;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+.book-detail-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 170px;
+}
+
+.book-item-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #334155;
+}
+
+.book-item-author {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #475569;
+}
+
+.book-item-rating {
+  display: flex;
+  align-items: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #475569;
+}
+.book-item-star {
+  margin: 2px;
+  color: #fbbf24;
+}
+
+.book-item-status {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #475569;
+}
+.book-item-status-result {
+  color: #0284c7;
+}
+@media (max-width: 767px) {
+  .bookListItem {
+    width: 100%;
+    margin: 5px;
+  }
+  .book-detail-card {
+    width: 140px;
+  }
+}
