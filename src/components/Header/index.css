@@ -67,6 +67,29 @@
   margin-right: 15px;
   display: none;
 }
+.navbar-item-section-sm {
+  background-color: #ffffff;
+  width: 100vw;
+  background-size: cover;
+  display: none;
+}
+.link-item-sm {
+  text-decoration: none;
+  width: 100%;
+}
+.home-item-sm {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #64748b;
+
+  padding: 5px;
+  padding-left: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 @media (max-width: 767px) {
   .header-card {
     display: none;
@@ -76,6 +99,9 @@
     height: 24px;
   }
   .menu-btn {
+    display: inline;
+  }
+  .navbar-item-section-sm {
     display: inline;
   }
 }
